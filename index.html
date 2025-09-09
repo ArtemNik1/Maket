@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-магазин спортивного питания</title>
+</head>
+<body>
+    <!-- <header> — шапка сайта. Обычно содержит название, логотип и навигацию -->
+    <header>
+        <h1>SportNutrition</h1>
+        <!-- <nav> — блок для основной навигации -->
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#products">Продукты</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- <main> — главное содержимое страницы -->
+    <main>
+        <!-- <section> — логически отдельный блок, баннер -->
+        <section id="home">
+            <h2>Добро пожаловать в <mark>SportNutrition</mark>!</h2>
+            <!-- <mark> — выделение ключевых слов (важность бренда) -->
+            <p>Лучшие добавки для вашего здоровья и спортивных результатов.</p>
+        </section>
+
+        <!-- <section> — блок с товарами -->
+        <section id="products">
+            <h2>Наши продукты</h2>
+
+            <!-- <article> — отдельный самостоятельный блок контента (товар) -->
+            <article>
+                <!-- <figure> — используется для иллюстраций и медиа -->
+                <figure>
+                    <img src="protein.png" alt="Протеиновый порошок" width="200">
+                    <!-- <figcaption> — подпись к изображению -->
+                    <figcaption>Протеиновый порошок</figcaption>
+                </figure>
+                <p>Вкусный и качественный протеин для роста мышц.</p>
+            </article>
+
+            <article>
+                <figure>
+                    <img src="creatine.png" alt="Креатин" width="200">
+                    <figcaption>Креатин</figcaption>
+                </figure>
+                <p>Для увеличения силы и выносливости.</p>
+            </article>
+
+            <article>
+                <figure>
+                    <img src="vitamins.png" alt="Витамины" width="200">
+                    <figcaption>Витамины</figcaption>
+                </figure>
+                <p>Набор витаминов для поддержки организма.</p>
+            </article>
+        </section>
+
+        <!-- <section> — блок "О нас" -->
+        <section id="about">
+            <h2>О нас</h2>
+            <p>Мы поставляем только качественные спортивные добавки с 
+                <!-- <time> — для указания даты/времени в машиночитаемом виде -->
+                <time datetime="2010">2010 года</time>.
+            </p>
+            <!-- <aside> — дополнительный контент (необязательный, но полезный блок) -->
+            <aside>
+                <!-- <details> — раскрывающийся элемент -->
+                <details>
+                    <!-- <summary> — краткий заголовок для блока details -->
+                    <summary>Почему выбирают нас?</summary>
+                    <p>Более 10 000 довольных клиентов по всей стране.</p>
+                </details>
+            </aside>
+        </section>
+
+        <!-- <section> — блок контактов -->
+        <section id="contact">
+            <h2>Контакты</h2>
+            <!-- <address> — контактная информация -->
+            <address>
+                Email: info@sportnutrition.ru<br>
+                Телефон: +7 (999) 123-45-67<br>
+                Адрес: г. Москва, ул. Спортивная, д. 10
+            </address>
+        </section>
+    </main>
+
+    <!-- <footer> — нижний колонтитул -->
+    <footer>
+        <p>&copy; <time datetime="2025">2025</time> SportNutrition. Все права защищены.</p>
+    </footer>
+</body>
+</html>
